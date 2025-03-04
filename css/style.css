@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+body {
+  background-color: rgb(67, 5, 5);
+}
