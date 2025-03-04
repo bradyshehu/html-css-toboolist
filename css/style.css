@@ -2,11 +2,97 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
 }
+/* ----utilitá---- */
 .container {
   max-width: 900px;
   margin: 0 auto;
 }
+.blocco {
+  display: inline;
+}
 body {
   background-color: rgb(67, 5, 5);
+}
+.padding {
+  padding: 20px 40px 20px 40px;
+}
+.button {
+  color: #c5c5c5;
+  border: 1px solid #c5c5c5;
+  padding: 5px;
+  border-radius: 5px;
+}
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid green;
+  color: green;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  margin-right: 10px;
+}
+/* .circle.green {
+  border-color: green;
+  color: green;
+} */
+.circle.red {
+  border-color: red;
+  color: red;
+}
+.box {
+  background-color: #43abf2;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+}
+/* -----header----- */
+header {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 40px;
+}
+h1 {
+  display: inline;
+  font-size: 3em;
+  vertical-align: top;
+}
+/* main */
+main {
+  background-color: white;
+  border-radius: 10px;
+}
+.button.Task {
+  background-color: #43abf2;
+  color: white;
+}
+h2 {
+  font-size: 1.5em;
+}
+span {
+  margin: 20px 0px;
+}
+.box.goal {
+  background-color: #9d75ea;
+}
+.box.recruit {
+  background-color: #65c3ac;
+}
+.box.mobile {
+  background-color: #eda02e;
+}
+.box.website {
+  background-color: #da6499;
+}
+.box.sales {
+  background-color: #adc72a;
 }
