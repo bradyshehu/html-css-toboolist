@@ -13,6 +13,7 @@
 }
 .blocco {
   display: inline;
+  vertical-align: middle;
 }
 body {
   background-color: #f6f8fa;
@@ -57,11 +58,12 @@ body {
 header {
   background-color: white;
   margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 h1 {
-  display: inline;
+  display: inline-block;
   font-size: 3em;
-  vertical-align: top;
 }
 /* main */
 main {
