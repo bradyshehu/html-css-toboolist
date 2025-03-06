@@ -73,6 +73,7 @@ main {
 .button.Task {
   background-color: #43abf2;
   color: white;
+  border: 1px solid #43abf2;
 }
 h2 {
   font-size: 1.5em;
